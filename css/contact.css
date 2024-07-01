@@ -1,0 +1,337 @@
+
+.akshar-header {
+  position: relative;
+  width: 100%;
+  z-index: 999;
+  transition: all 0.3s ease-in-out;
+  background-color: #26324e;
+  /* height: 80px; */
+}
+.akshar-header.fixed-header {
+  position: fixed;
+  top: 0;
+  background-color: #26324e;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+header .header-icons-2 a {
+  display: none;
+}
+.header-icons a {
+  text-decoration: none;
+  background-color: #3A769D;
+  color: white;
+  border-radius: 30px;
+  padding: 10px 25px;
+}
+.header-icons a:hover{
+  text-decoration: none;
+  color: white;
+}
+header .navbar-nav .nav-item a {
+  color: #fff;
+  font-size: 22px;
+  line-height: 27px;
+  margin: 0 10px;
+}
+.navbar-nav .nav-link.active{
+  color: white !important;
+}
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 10px;
+  font-family: 'Outfit semibold';
+  color: #fff;
+}
+.navbar-toggler {
+  padding: 0 !important;
+  border: none;
+  background-color: white !important;
+}
+
+
+
+
+
+/* header end */
+
+
+
+.contact-bg{
+  background-image: url(../images/blog/bg.png);
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 200px;
+}
+.contact-bg h1{
+  color: #fff;
+  text-align: center;
+  font-size: 70px;
+  font-weight: 700;
+}
+
+/* map start */
+
+.map-start {
+  padding: 66px 0px;
+}
+
+.map-start .small-title {
+  color: #3a769d;
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin: 0px;
+}
+
+.map-start h2 {
+  font-weight: 700;
+}
+
+.map-start .desc {
+  margin: 0px;
+  font-size: 1.1rem;
+}
+
+.inner-contact-us {
+  padding-top: 16px;
+  padding-left: 24px;
+}
+
+.inner-contact-us .icon-four {
+  padding-top: 24px;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-contact-us .icon-four h5 {
+  margin: 0px;
+}
+
+.inner-contact-us .icon-four p {
+  margin: 0px;
+}
+
+.inner-contact-us .icon-container {
+  background-color: #26324e;
+  color: #fff;
+  font-size: 1.4rem;
+  border-radius: 8px;
+  text-align: center;
+  width: 56px;
+  height: 56px;
+  padding-top: 10px;
+  margin-right: 16px;
+}
+
+.inner-contact-us .icon-container i {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.inner-contact-us .inner-container {
+  display: flex;
+  padding-bottom: 44px;
+}
+
+/* map end */
+
+/* form start */
+
+.form-section {
+  background-color: #e3e5ea;
+  margin-bottom: 66px;
+  padding: 32px 60px;
+  text-align: center;
+}
+
+.form-section .form-desc h2 {
+  font-weight: 700;
+}
+
+.form-section .form-desc p {
+  margin: 0;
+  padding-bottom: 24px;
+}
+
+.form-section .check-box {
+  padding-top: 16px;
+}
+
+.form-section .send-button {
+  background-color: #26324e;
+  color: white;
+  border: 3px solid transparent;
+  transition: 1s all ease;
+  padding: 8px 32px;
+  font-weight: 600;
+  border-radius: 4px;
+}
+
+.form-section .send-button:hover {
+  background-color: #f5f8ff;
+  color: #26324e;
+  font-weight: 600;
+  border: 3px solid #26324e;
+}
+
+.form-section .first-part {
+  padding-bottom: 24px;
+}
+/* form end */
+
+/* ----<---- Media Query Start ---->---- */
+
+@media screen and (max-width: 1200px) and (min-width: 1023px) {
+  
+}
+
+@media screen and (max-width: 1024px) and (min-width: 992px) {
+
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+  [type=button]:not(:disabled){
+    margin-right: 20px;
+  }
+  header .header-icons-2 a{
+    display: block;
+  }
+  header .icon-header{
+      display: none;
+  }
+  .header-icons-2 a {
+    margin-left: 10px;
+  }
+  .contact-bg{
+    padding: 170px;
+  }
+  .contact-bg h1{
+    font-size: 60px;
+  }
+  .map-start .col-lg-6{
+    width: 50%;
+  }
+  .inner-contact-us {
+    padding-top: 0px;
+    padding-left: 0px;
+  }
+  .map-start .desc{
+    font-size: 17px;
+  }
+  .inner-contact-us .icon-four p {
+    margin: 0px;
+    font-size: 15px;
+  }
+  .form-section{
+    padding: 28px;
+  }
+  .form-section .col-lg-4{
+    width: 33%;
+  }
+  .form-section .col-lg-6{
+    width: 50%;
+  }
+  
+}
+
+@media screen and (max-width: 767px) and (min-width: 426px) {
+  [type=button]:not(:disabled){
+    margin-right: 20px;
+  }
+  header .header-icons-2 a{
+    display: block;
+  }
+  header .icon-header{
+      display: none;
+  }
+  .header-icons-2 a {
+    margin-left: 10px;
+  }
+  .contact-bg{
+    padding: 170px;
+  }
+  .contact-bg h1{
+    font-size: 60px;
+  }
+  .form-section{
+    padding: 28px;
+  }
+  .form-section .col-lg-4{
+    width: 33%;
+  }
+  .form-section .col-lg-6{
+    width: 50%;
+  }
+  
+}
+@media screen and (max-width: 425px) and (min-width: 376px) {
+  [type=button]:not(:disabled){
+    margin-right: 20px;
+  }
+  header .header-icons-2 a{
+    display: block;
+  }
+  header .icon-header{
+      display: none;
+  }
+  .header-icons-2 a {
+    margin-left: 10px;
+  }
+  .contact-bg{
+    padding: 130px 0px 130px 0;
+  }
+  .contact-bg h1{
+    font-size: 50px;
+  }
+  .map-start {
+    padding: 40px 0px;
+  }
+  .form-section{
+    padding: 20px;
+  }
+  .form-section .col-lg-4{
+    width: 33%;
+  }
+  .form-section .col-lg-6{
+    width: 50%;
+  }
+
+}
+
+@media screen and (max-width: 375px) and (min-width: 300px) {
+  [type=button]:not(:disabled){
+    margin-right: 20px;
+  }
+  header .header-icons-2 a{
+    display: block;
+  }
+  header .icon-header{
+      display: none;
+  }
+  .header-icons-2 a {
+    margin-left: 10px;
+  }
+  .contact-bg{
+    padding: 130px 0px 130px 0;
+  }
+  .contact-bg h1{
+    font-size: 50px;
+  }
+  .inner-contact-us .icon-four p {
+    margin: 0px;
+    font-size: 15px;
+}
+  .map-start {
+    padding: 40px 0px;
+  }
+  .form-section{
+    padding: 10px;
+  }
+}
+
+/* ----<---- Media Query end ---->---- */

@@ -1,0 +1,498 @@
+@media screen and (max-width: 1399px) and (min-width: 1200px) {
+  .main-work .img-work-inner .vl{
+      margin-left: 131px;
+  }
+  
+}
+@media screen and (max-width: 1199px) and (min-width: 1025px) {
+  .know-us .main-detail{
+      top: 52%;
+      left: 52%;
+  }
+  .know-us .inner-know-us img{
+      height: 400px;
+  }
+  .info-part h2{
+      font-size: 30px;
+  }
+  .faqs-img img{
+      height: 300px;
+  }
+  .main-work .img-work-inner .vl{
+      margin-left: 106px;
+  }
+  .second .box{
+      padding: 10px;
+  }
+  .work-hard .img-section img{
+      max-width: 100%;
+  }
+}
+@media screen and (max-width: 1024px) and (min-width: 992px) {
+  .hero-class .pad-sec{
+      padding-top: 0;
+  }
+  .hero-class .img-class{
+      padding-top: 145px;
+  }
+  .know-us .main-detail{
+      /* top: 53%;
+      left: 50%; */
+      display: none;
+  }
+  .inner-detail-know .know-us-hr{
+      padding-bottom: 5px;
+  }
+  .inner-detail-know .small-title h5{
+      font-size: 23px;
+  }
+  .inner-detail-know .icon-true-desc{
+      padding-bottom: 7px;
+  }
+  .first-part .title-info{
+      margin-bottom: 0;
+  }
+  .info-part h2{
+      font-size: 23px;
+  }
+  .main-work .img-work-inner .vl{
+      margin-left: 110px;
+  }
+  .second .box{
+      padding: 10px;
+  }
+  .work-hard .img-section img{
+      max-width: 100%;
+  }
+}
+@media screen and (max-width: 991px) and (min-width: 768px) {
+[type="button"]:not(:disabled) {
+  margin-right: 20px;
+}
+header .header-icons-2 a {
+  display: block;
+}
+header .icon-header {
+  display: none;
+}
+.header-icons-2 a {
+  margin-left: 10px;
+}
+
+.hero-class .col-lg-6{
+  width: 50%;
+}
+.hero-class .img-class{
+  padding-top: 70px;
+}
+.hero-class .pad-sec{
+  padding-top: 15px;
+}
+.hero-class .desc-class{
+  padding: 10px;
+}
+.hero-class .desc-class h5{
+  font-size: 32px;
+}
+.third-section .col-lg-4{
+  width: 33%;
+}
+.three-box .main-tag .num-tag{
+  display: none;
+}
+.know-us .col-lg-4{
+  width: 40%;
+}
+.know-us .col-lg-8{
+  width: 60%;
+}
+.know-us .main-detail{
+  top: 53%;
+  left: 47%;
+}
+.inner-detail-know .small-title h5{
+  font-size: 27px;
+}
+.inner-detail-know .img-tag-part {
+  padding-left: 0px;
+  padding-top: 1px;
+  padding-bottom: 5px;
+}
+.inner-detail-know .icon-true-container{
+  display: none;
+}
+.faqs-container{
+  padding: 0;
+}
+.faqs-img img{
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.sqaure-root .col-lg-3{
+  width: 25%;
+}
+.sec-info {
+  padding: 0px 5px;
+}
+.line-tag .col-lg-3{
+  width: 25%;
+}
+.main-work .img-work-inner .vl{
+  /* margin-left: 77px; */
+  display: none;
+}
+.second .col-lg-3{
+  width: 50%;
+  margin-top: 30px;
+}
+.hr-img-custom hr{
+  display: none;
+}
+.second .box{
+  padding: 10px;
+  height: 100%;
+}
+.work-hard .img-section img{
+  max-width: 100%;
+}
+.work-hard .col-lg-8{
+  width: 60%;
+}
+.work-hard .col-lg-4{
+  width: 40%;
+}
+.work-hard .sqare{
+  left: 30%;
+}
+.work-hard .header-tag {
+  width: auto;
+  margin-left: 0px;
+}
+.work-hard .main-box-container{
+  padding-bottom: 20px;
+}
+.blog-part .col-lg-4{
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+
+}
+@media screen and (max-width: 767px) and (min-width: 426px) {
+[type="button"]:not(:disabled) {
+  margin-right: 20px;
+}
+header .header-icons-2 a {
+  display: block;
+}
+header .icon-header {
+  display: none;
+}
+.header-icons-2 a {
+  margin-left: 10px;
+}
+
+.hero-class .img-class{
+  padding-top: 30px;
+}
+.hero-class .pad-sec{
+  padding-top: 15px;
+}
+.hero-class .desc-class{
+  padding: 10px;
+}
+.hero-class .desc-class h5{
+  font-size: 32px;
+}
+.title-second h5{
+  font-size: 25px;
+}
+.third-section .col-lg-4{
+  width: 50%;
+  margin-bottom: 20px;
+}
+.three-box .main-tag .num-tag{
+  display: none;
+}
+
+.know-us .main-detail{
+  top: 53%;
+  left: 47%;
+}
+.inner-detail-know .small-title h5{
+  font-size: 27px;
+}
+.inner-detail-know .img-tag-part {
+  padding-left: 0px;
+  padding-top: 1px;
+  padding-bottom: 5px;
+}
+.inner-detail-know .icon-true-container{
+  display: none;
+}
+.faqs-container{
+  padding: 0;
+}
+.faqs-img img{
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.sqaure-root .col-lg-3{
+  width: 50%;
+  margin-bottom: 10px;
+}
+.sec-info {
+  padding: 0px 5px;
+}
+.line-tag .col-lg-3{
+  width: 25%;
+}
+.main-work .info-work{
+  padding: 10px;
+}
+.main-work .img-work-inner .vl{
+  /* margin-left: 77px; */
+  display: none;
+}
+.second .col-lg-3{
+  width: 50%;
+  margin-top: 30px;
+}
+.hr-img-custom hr{
+  display: none;
+}
+.second .box{
+  padding: 10px;
+  height: 100%;
+}
+.work-hard .img-section img{
+  max-width: 100%;
+}
+
+.work-hard .sqare{
+  left: 22%;
+}
+.work-hard .header-tag {
+  width: auto;
+  margin-left: 0px;
+  margin-top: 20px;
+}
+.work-hard .main-box-container{
+  padding-bottom: 20px;
+}
+.blog-part .col-lg-4{
+  margin-bottom: 20px;
+}
+
+}
+@media screen and (max-width: 426px) and (min-width: 376px) {
+[type="button"]:not(:disabled) {
+  margin-right: 20px;
+}
+header .header-icons-2 a {
+  display: block;
+}
+header .icon-header {
+  display: none;
+}
+.header-icons-2 a {
+  margin-left: 10px;
+}
+.hero-class .img-class{
+  padding-top: 30px;
+}
+.hero-class .pad-sec{
+  padding-top: 15px;
+}
+.hero-class .desc-class{
+  padding: 10px;
+}
+.hero-class .desc-class h5{
+  font-size: 32px;
+}
+.title-second h5{
+  font-size: 25px;
+}
+.third-section .col-lg-4{
+  margin-bottom: 20px;
+}
+.three-box .main-tag .num-tag{
+  display: none;
+}
+
+.know-us .main-detail{
+  top: 53%;
+  left: 47%;
+}
+.inner-detail-know .small-title h5{
+  font-size: 27px;
+}
+.inner-detail-know .img-tag-part {
+  padding-left: 0px;
+  padding-top: 1px;
+  padding-bottom: 5px;
+}
+.inner-detail-know .icon-true-container{
+  display: none;
+}
+.faqs-container{
+  padding: 0;
+}
+.faqs-img img{
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.sqaure-root .col-lg-3{
+  width: 50%;
+  margin-bottom: 10px;
+}
+.sec-info {
+  padding: 0px 5px;
+}
+.line-tag .col-lg-3{
+  width: 25%;
+}
+.main-work .info-work{
+  padding: 10px;
+}
+.main-work .img-work-inner .vl{
+  /* margin-left: 77px; */
+  display: none;
+}
+.second .col-lg-3{
+  margin-top: 30px;
+}
+.hr-img-custom hr{
+  display: none;
+}
+.second .box{
+  padding: 10px;
+  height: 100%;
+}
+.work-hard .img-section img{
+  max-width: 100%;
+}
+
+.work-hard .sqare{
+  left: 23%;
+}
+.work-hard .header-tag {
+  width: auto;
+  margin-left: 0px;
+  margin-top: 20px;
+}
+.work-hard .main-box-container{
+  padding-bottom: 20px;
+}
+.blog-part .col-lg-4{
+  margin-bottom: 20px;
+}
+
+}
+@media screen and (max-width: 375px) and (min-width: 300px) {
+[type="button"]:not(:disabled) {
+  margin-right: 20px;
+}
+header .header-icons-2 a {
+  display: block;
+}
+header .icon-header {
+  display: none;
+}
+.header-icons-2 a {
+  margin-left: 10px;
+}
+.hero-class .img-class{
+  padding-top: 30px;
+}
+.hero-class .pad-sec{
+  padding-top: 15px;
+}
+.hero-class .desc-class{
+  padding: 10px;
+}
+.hero-class .desc-class h5{
+  font-size: 32px;
+}
+.title-second h5{
+  font-size: 25px;
+}
+.third-section .col-lg-4{
+  margin-bottom: 20px;
+}
+.three-box .main-tag .num-tag{
+  display: none;
+}
+
+.know-us .main-detail{
+  top: 53%;
+  left: 47%;
+}
+.inner-detail-know .small-title h5{
+  font-size: 27px;
+}
+.inner-detail-know .img-tag-part {
+  padding-left: 0px;
+  padding-top: 1px;
+  padding-bottom: 5px;
+}
+.inner-detail-know .icon-true-container{
+  display: none;
+}
+.faqs-container{
+  padding: 0;
+}
+.faqs-img img{
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.sqaure-root .col-lg-3{
+  width: 50%;
+  margin-bottom: 10px;
+}
+.sec-info {
+  padding: 0px 5px;
+}
+.line-tag .col-lg-3{
+  width: 25%;
+}
+.main-work .info-work{
+  padding: 10px;
+}
+.main-work .img-work-inner .vl{
+  /* margin-left: 77px; */
+  display: none;
+}
+.second .col-lg-3{
+  margin-top: 30px;
+}
+.hr-img-custom hr{
+  display: none;
+}
+.second .box{
+  padding: 10px;
+  height: 100%;
+}
+.work-hard .img-section img{
+  max-width: 100%;
+}
+
+.work-hard .sqare{
+  left: 13%;
+}
+.work-hard .header-tag {
+  width: auto;
+  margin-left: 0px;
+  margin-top: 20px;
+}
+.work-hard .main-box-container{
+  padding-bottom: 20px;
+}
+.blog-part .col-lg-4{
+  margin-bottom: 20px;
+}
+}

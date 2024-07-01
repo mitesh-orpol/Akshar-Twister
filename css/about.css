@@ -1,0 +1,1318 @@
+.akshar-header {
+  position: relative;
+  width: 100%;
+  z-index: 999;
+  transition: all 0.3s ease-in-out;
+  background-color: #26324e;
+  /* height: 80px; */
+}
+
+.akshar-header.fixed-header {
+  position: fixed;
+  top: 0;
+  background-color: #26324e;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+header .akshar-header .header-icons-2 a {
+  display: none;
+}
+.akshar-header .header-icons a {
+  text-decoration: none;
+  background-color: #3A769D;
+  color: white;
+  border-radius: 30px;
+  padding: 10px 25px;
+}
+.akshar-header .header-icons a:hover{
+  text-decoration: none;
+  color: white;
+}
+header .akshar-header  .navbar-nav .nav-item a {
+  color: #fff;
+  font-size: 22px;
+  line-height: 27px;
+  margin: 0 10px;
+}
+.akshar-header .navbar-nav .nav-link.active{
+  color: white !important;
+}
+.akshar-header .navbar-nav .nav-link.active,
+.akshar-header .navbar-nav .nav-link.show {
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 10px;
+  font-family: 'Outfit semibold';
+  color: #fff;
+}
+.akshar-header .navbar-toggler {
+  padding: 0 !important;
+  border: none;
+  background-color: white !important;
+}
+
+
+
+
+
+/* About Radheshyam start */
+
+.about-top {
+  padding: 66px 0px;
+}
+
+.main a {
+  text-decoration: none;
+}
+
+.about-top p {
+  margin-bottom: 0px;
+}
+
+.about-top .img-top img {
+  max-width: 100%;
+  /* width: 580px;
+  height: 580px; */
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+}
+
+.about-top .icon-main {
+  display: flex;
+  flex-direction: column;
+}
+
+.icon-main .inner-icon {
+  display: flex;
+  gap: 12px;
+}
+
+.side-top .side-title {
+  color: rgba(38, 50, 78, 1);
+}
+
+.inner-detail-know {
+  margin-top: 32px;
+}
+
+.inner-detail-know .inner-img img {
+  margin: 5% 5% 2% 10%;
+  float: left;
+  transition: width 2s, -webkit-transform 2s;
+}
+
+.inner-detail-know .inner-img img:hover{
+  transform:rotateY(-360deg);
+}
+
+.inner-detail-know .know-hr {
+  width: 200px;
+  padding-bottom: 8px;
+  padding-top: 2px;
+}
+.inner-detail-know .know-hr hr {
+  border: 2px solid rgba(58, 118, 157, 1);
+  opacity: 1;
+  margin: 0px;
+}
+
+.inner-detail-know .small-title-p {
+  color: rgba(38, 50, 78, 1);
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.inner-detail-know .small-title h5 {
+  font-size: 2.4rem;
+  font-weight: 800;
+  color: rgba(38, 50, 78, 1);
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.inner-detail-know .sec-title {
+  color: rgba(0, 0, 0, 1);
+  padding: 24px 0px;
+  font-size: 1.1rem;
+}
+
+.inner-detail-know .sec-part {
+  display: flex;
+  gap: 56px;
+}
+
+.inner-detail-know .number {
+  background-color: rgba(38, 50, 78, 1);
+  padding: 32px 32px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.inner-detail-know .number h1 {
+  font-weight: 700;
+  margin-bottom: 0px;
+  padding-bottom: 2px;
+}
+
+.sec-part .icon-four {
+  padding-top: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.sec-part .icon-four i {
+  color: rgba(58, 118, 157, 1);
+  font-size: 1.2rem;
+}
+
+.sec-part .icon-para {
+  font-weight: 600;
+}
+
+.inner-detail-know .inner-img {
+  padding-top: 24px;
+  display: flex;
+  gap: 14px;
+  align-items: center;
+}
+
+.inner-detail-know .inner-img h5 {
+  margin-bottom: 0px;
+  font-weight: 700;
+}
+
+.inner-detail-know .btn-main {
+  padding-left: 48px;
+}
+
+.inner-detail-know .inner_btn {
+  display: flex;
+  background-color: rgba(58, 118, 157, 1);
+  padding: 8px 26px;
+  font-size: 1rem;
+  font-weight: 500;
+  border: 3px solid transparent;
+  width: fit-content;
+  transition: all 0.2 ease-in-out;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.inner-detail-know .inner_btn:hover {
+  border: 3px solid rgba(58, 118, 157, 1);
+  background-color: white;
+}
+
+.inner-detail-know .inner_btn a {
+  color: white;
+}
+
+.inner-detail-know .inner_btn:hover a {
+  color: rgba(58, 118, 157, 1);
+}
+
+/* About Radheshyam end */
+
+/* our services start */
+
+.service-top .small-title {
+  display: flex;
+  padding-bottom: 44px;
+}
+
+.service-top .small-title-p {
+  color: rgba(38, 50, 78, 1);
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.service-top .know-hr {
+  width: 120px;
+  padding-bottom: 12px;
+  padding-top: 2px;
+}
+.service-top .know-hr hr {
+  border: 2px solid rgba(58, 118, 157, 1);
+  opacity: 1;
+  margin: 0px;
+}
+
+.service-top .small-title h5 {
+  font-weight: 800;
+  font-size: 1.8rem;
+  color: rgba(38, 50, 78, 1);
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.service-top .vl {
+  border-left: 2px solid rgba(126, 126, 126, 0.352);
+}
+
+.service-top .service_btn {
+  display: flex;
+  background-color: rgba(38, 50, 78, 1);
+  padding: 4px 16px;
+  font-size: 1rem;
+  font-weight: 500;
+  border: 3px solid transparent;
+  width: fit-content;
+  transition: all 0.2 ease-in-out;
+  justify-content: center;
+}
+
+.service-top .service_btn:hover {
+  border: 3px solid rgba(38, 50, 78, 1);
+  background-color: white;
+}
+
+.service-top .service_btn a {
+  color: white;
+}
+
+.service-top .service_btn:hover a {
+  color: rgba(38, 50, 78, 1);
+}
+
+.service-top .service-title-top {
+  padding-right: 66px;
+}
+
+.service-top .service-inner-desc {
+  padding-left: 66px;
+  justify-content: center;
+  align-items: center;
+}
+
+.service-title .sqaure-box {
+  padding: 24px;
+  background-color: white;
+  box-shadow: 0px 0px 21.9px 0px #00000040;
+}
+
+.service-top .sqaure-box img {
+  width: 44px;
+}
+
+.service-top .sqaure-box h5 {
+  color: rgba(38, 50, 78, 1);
+  font-weight: 700;
+  padding-top: 8px;
+  padding-bottom: 4px;
+  margin-bottom: 0px;
+}
+
+.service-top .sqaure-box p {
+  margin-bottom: 0px;
+  padding: 16px 0px;
+  font-size: 0.9rem ;
+}
+
+.service-top .sqaure-hr {
+  width: 30%;
+}
+
+.service-top .sqaure-hr hr {
+  border-top: 3px solid rgb(58, 117, 157);
+  opacity: 1;
+  margin: 0;
+}
+
+.service-title .sqaure-box {
+  padding: 24px;
+  background-color: white;
+  box-shadow: 0px 0px 21.9px 0px #00000040;
+}
+
+.service-top .icon {
+  color: #3a769d;
+}
+
+.service-top .icon a {
+  color: #3a769d;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+/* .service-title .sqaure-box:hover .icon {
+  color: #3a769d;
+}
+.service-title .sqaure-box:hover a {
+  color: #3a769d;
+}
+.service-top .icon {
+  color: #fff;
+  font-weight: 700;
+}
+.service-top a {
+  text-decoration: none;
+  color: white;
+} */
+
+/* our services end */
+
+/* Experienced Team start */
+
+.team-main {
+  padding: 66px 0px;
+  color: white;
+}
+
+.team-main .bg-img {
+  padding: 48px;
+  background-image: url(../images/about/img6.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  max-width: 100%;
+}
+
+.team-main .team-desc {
+  display: flex;
+  gap: 44px;
+  margin-left: 380px;
+  padding-bottom: 32px;
+}
+
+.team-main .team-desc h2 {
+  font-weight: 700;
+  font-size: 2.4rem;
+}
+
+.team-main .team-desc p {
+  font-size: 1rem;
+  margin: 0px;
+  text-align: start;
+}
+
+.team-main .team-desc .vl {
+  border-left: 3px solid rgb(255, 255, 255);
+}
+
+.team-main .img-desc-icon {
+  background-color: white;
+  color: black;
+}
+
+.team-main .img-desc-icon h5 {
+  color: #26324e;
+}
+
+.team-main .img-desc-icon p {
+  color: #3a769d;
+}
+
+.team-main .img-desc-icon a {
+  text-decoration: none;
+}
+
+.team-main .card {
+  border: none;
+  border-radius: 0px;
+  background-color: transparent;
+  height: 100%;
+}
+
+.team-main .card .main-img img {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  border-radius: 0px;
+  transition: all ease-in-out 0.6s;
+}
+
+.team-main .card .main-img {
+  overflow: hidden;
+}
+
+.card:hover .card-img-top {
+  transform: scale(1.1) rotate(-2deg);
+  transition: 0.3s ease-in;
+}
+
+.team-main .card-body h5 {
+  color: #26324e;
+  padding-bottom: 2px;
+  margin-bottom: 0px;
+  font-weight: 700;
+}
+
+.team-main .card-body p {
+  color: #3a769d;
+  margin-bottom: 0px;
+  font-weight: 500;
+  padding-bottom: 8px;
+}
+
+.team-main .card-body i {
+  background-color: #26324e;
+  padding: 6px 8px;
+  margin-right: 12px;
+  color: white;
+  font-size: 0.8rem;
+}
+
+.card .card-body {
+  background-color: #ffffff;
+}
+
+/* Experienced Team end */
+
+/* our vision start */
+
+.mission-container {
+  padding-bottom: 66px;
+  justify-content: center;
+  text-align: center;
+}
+
+.mission-container .desc-part {
+  padding-bottom: 32px;
+}
+
+.mission-container .desc-part h2 {
+  font-weight: 800;
+  color: #26324e;
+}
+
+.mission-container .desc-hr {
+  width: 20%;
+  margin: 0 auto;
+}
+
+.mission-container .desc-hr hr {
+  border-top: 4px solid #3a769d;
+  opacity: 1;
+  margin: 0;
+}
+
+.vision-part{
+  display: flex;
+  gap: 20px;
+}
+.vision-part .vi-tet p {
+  margin-bottom: 0px;
+  text-align: start;
+  font-weight: 500;
+  padding-top: 30px;
+  line-height: 26px;
+  font-size: 18px;
+}
+.vision-part-2 .img-desc {
+  display: flex;
+}
+
+
+.vision-part-2 .img-desc {
+  padding-top: 16px;
+}
+
+.vision-part-2 .img-desc img {
+  height: 44px;
+  max-width: 100%;
+}
+
+.vision-part-2 .img-icon {
+  /* margin-left: 48px; */
+  margin-top: 24px;
+  padding-left: 18px;
+  padding-bottom: 16px;
+  background-color: #ffffff;
+  border: 4px solid transparent;
+  transition: 1s ease;
+}
+
+.vision-part-2 .img-icon:hover {
+  background-color: #ffffff;
+  border: 4px solid#26324E;
+}
+
+.vision-part-2 .img-desc h2 {
+  padding: 0px;
+  margin: 0px;
+  padding-left: 14px;
+  font-weight: 700;
+}
+
+.vision-part-2 p {
+  margin: 0px;
+  text-align: start;
+  line-height: 30px;
+  padding-top: 8px;
+  font-weight: 500;
+}
+
+/* .mission-part .img-desc {
+  display: flex;
+  line-height: 6px;
+}
+
+.mission-part p {
+  margin-bottom: 0px;
+  text-align: start;
+  font-weight: 500;
+  padding-top: 32px;
+  line-height: 26px;
+}
+
+.mission-part .img-desc {
+  display: flex;
+}
+
+.mission-part img {
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.mission-part .img-desc img {
+  height: 44px;
+  max-width: 100%;
+}
+
+.mission-part .img-icon {
+  margin-top: 24px;
+  padding-left: 24px;
+  padding-bottom: 16px;
+}
+
+.mission-part .inner-effect {
+  background-color: #ffffff;
+  padding: 24px 18px;
+  border: 4px solid transparent;
+  transition: 1s ease;
+}
+
+.mission-part .inner-effect:hover {
+  background-color: #ffffff;
+  border: 4px solid#26324E;
+}
+
+.mission-part .img-desc h2 {
+  padding: 0px;
+  margin: 0px;
+  padding-left: 14px;
+  font-weight: 700;
+}
+
+.mission-part .mission-desc {
+  margin: 0px;
+  text-align: start;
+  line-height: 30px;
+  padding-top: 8px;
+  font-weight: 500;
+} */
+
+.service-top .service-inner {
+  background-color: #f1f1f1;
+  padding-top: 24px;
+  padding-bottom: 2px;
+  margin-bottom: 20px;
+}
+
+.service-top .service-inner h3 {
+  margin: 0px;
+  font-weight: 700;
+  color: #3a769d;
+  border-left: 5px solid#26324E;
+  line-height: 32px;
+  margin-left: 80px;
+  margin-right: 110px;
+}
+
+.service-top .service-inner h3 span {
+  color: #26324e;
+}
+
+.service-top .service-inner ul {
+  padding-top: 16px;
+}
+
+.service-top .service-inner li {
+  padding-bottom: 6px;
+  text-align: start;
+  margin-left: 60px;
+}
+
+.service-top .sign-up {
+  background-color: #f1f1f1;
+  padding-top: 28px;
+  padding-bottom: 24px;
+}
+
+.service-top .sign-up p {
+  margin-bottom: 0px;
+  font-weight: 400;
+  padding-top: 18px;
+  padding-bottom: 8px;
+}
+
+.service-top .sign-up .button {
+  background-color: #26324e;
+  color: white;
+  padding: 8px 24px;
+}
+
+.service-top .sign-up .button-two {
+  color: #26324e;
+  font-weight: 700;
+}
+
+.sign-up .button-two .span {
+  font-size: 1.9rem;
+}
+
+/* our vision end */
+
+/* faq start */
+.faq-main .title-big {
+  color: #26324e;
+  font-weight: 700;
+  font-size: 2.2rem;
+  position: absolute;
+}
+
+.faq-main .inner-title {
+  margin-top: 32px;
+  font-size: 1.6rem;
+  padding-right: 88px;
+  color: #26324e;
+  font-weight: 700;
+  line-height: 40px;
+}
+
+.faq-main .faq-hr {
+  width: 100%;
+  padding-left: 120px;
+  padding-top: 25px;
+  text-align: center;
+}
+
+.faq-main .faq-hr hr {
+  border-top: 2px solid #dcdcdc;
+  opacity: 1;
+  margin: 0;
+}
+
+/* .faq-main .img-section {
+  padding-left: 100px;
+  padding-top: 22px;
+} */
+
+.faq-main .img-section img {
+  object-fit: cover;
+  max-width: 100%;
+  /* width: 480px; */
+  display: block;
+  margin: 0 auto;
+}
+
+.faq-main .main-container {
+  position: relative;
+}
+
+.faq-main .sqare {
+  color: white;
+  top: 0;
+  background-color: rgba(38, 50, 78, 1);
+  border: 4px solid white;
+  position: absolute;
+  width: 300px;
+  padding-top: 22px;
+  /* margin-top: 200px; */
+  /* margin-left: 400px; */
+  top: 40%;
+  left: 60%;
+}
+
+.faq-main .main-container p {
+  font-weight: 300;
+  font-size: 0.9rem;
+  text-align: center;
+  padding: 12px 14px;
+}
+
+.faq-main .no-part {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.faq-main .no-part h1 {
+  margin: 0px;
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+.faq-main .no-part .desc {
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin-top: 8px;
+}
+
+.accordion {
+  .accordion-item {
+    background-color: rgb(255, 255, 255);
+    margin-top: 24px;
+    border: none;
+    box-shadow: rgba(100, 100, 111, 0.1) 0px 7px 29px 0px;
+    button[aria-expanded="true"] {
+      background-color: #26324e;
+    }
+  }
+  button {
+    position: relative;
+    display: block;
+    text-align: left;
+    width: 100%;
+    padding: 1em 24px;
+    color: #000000;
+    font-weight: 600;
+    border: none;
+    background: none;
+    outline: none;
+    &:hover,
+    &:focus {
+      cursor: pointer;
+      color: black;
+      &::after {
+        cursor: pointer;
+        color: black;
+      }
+    }
+    .accordion-title {
+      padding: 1em 1.5em 1em 0;
+    }
+    .icon {
+      display: inline-block;
+      position: absolute;
+      right: 0;
+      width: 20px;
+      height: 20px;
+      margin-right: 24px;
+      background-color: #26324e;
+      color: white;
+      border-radius: 22px;
+      &::before {
+        display: block;
+        position: absolute;
+        content: "";
+        top: 9px;
+        left: 5px;
+        width: 10px;
+        height: 2px;
+        background: currentColor;
+      }
+      &::after {
+        display: block;
+        position: absolute;
+        content: "";
+        top: 5px;
+        left: 9px;
+        width: 2px;
+        height: 10px;
+        background: currentColor;
+      }
+    }
+  }
+  button[aria-expanded="true"] {
+    color: white;
+
+    .icon {
+      &::after {
+        width: 0;
+      }
+    }
+    + .accordion-content {
+      opacity: 1;
+      max-height: 9em;
+      transition: all 200ms linear;
+      will-change: opacity, max-height;
+    }
+  }
+  .accordion-content {
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: opacity 200ms linear, max-height 200ms linear;
+    will-change: opacity, max-height;
+    p {
+      font-size: 1rem;
+      font-weight: 500;
+      background-color: #ecebeb;
+      padding: 24px 24px;
+      padding-right: 48px;
+      margin: 0px;
+    }
+  }
+}
+
+/* faq end */
+
+
+@media screen and (max-width: 1399px) and (min-width: 1200px){
+  .inner-detail-know {
+    margin-top: 0px;
+  }
+  .inner-detail-know .small-title h5{
+    font-size: 32px;
+  }
+  .inner-detail-know .btn-main {
+    padding-left: 0px;
+  }
+  .service-title .sqaure-box{
+    padding: 10px;
+  }
+  .team-main .team-desc{
+    margin-left: 20px;
+  }
+  .vision-part .vi-tet p{
+    padding-top: 17px;
+  }
+  .service-top .small-title h5 {
+    font-weight: 700;
+    font-size: 21px;
+  }
+  .faq-main .sqare{
+    left: 53%;
+  }
+
+
+}
+@media screen and (max-width: 1199px) and (min-width: 1025px){
+  .inner-detail-know {
+    margin-top: 0px;
+  }
+  .inner-detail-know .small-title h5{
+    font-size: 29px;
+    font-weight: 700;
+  }
+  .inner-detail-know .sec-title{
+    padding: 15px 0;
+    font-size: 17px;
+  }
+  .inner-detail-know .btn-main{
+    padding-left: 0;
+  }
+  .service-top .small-title h5 {
+    font-weight: 700;
+  }
+  .service-title .sqaure-box{
+    padding: 10px;
+  }
+  .team-main .team-desc{
+    margin-left: 60px;
+  }
+  .vision-part .vi-tet p {
+    padding-top: 0px;
+    line-height: 22px;
+    font-size: 16px;
+  }
+  .vision-part-2 p {
+    line-height: 25px;
+    padding-top: 4px;
+  }
+  .service-top .service-inner h3 {
+    margin-left: 45px;
+    margin-right: 68px;
+  }
+  .faq-main .inner-title {
+    margin-top: 25px;
+    font-size: 22px;
+    padding-right: 0px;
+    line-height: 35px;
+  }
+  .faq-main .sqare{
+    left: 48%;
+  }
+}
+@media screen and (max-width: 1024px) and (min-width: 992px){
+  .inner-detail-know {
+    padding-left: 0px !important;
+    padding-top: 0px !important;
+  }
+  .inner-detail-know .btn-main{
+    padding-left: 0px;
+  }
+  .service-top .small-title h5 {
+    font-weight: 700;
+    font-size: 22px;
+  }
+  .service-title .sqaure-box{
+    padding: 10px;
+  }
+  .team-main .team-desc {
+    gap: 58px;
+    margin-left: 10px;
+    padding-bottom: 20px;
+  }
+  .vision-part .vi-tet p {
+    padding-top: 0px;
+    line-height: 24px;
+    font-size: 15px;
+  }
+  .vision-part-2 .img-icon{
+    padding-left: 17px;
+  }
+  .vision-part-2 p{
+    line-height: 27px
+  }
+  .faq-main .inner-title {
+    margin-top: 15px;
+    font-size: 22px;
+    padding-right: 0px;
+  }
+  .accordion button {
+    padding: 10px 24px;
+  }
+  .faq-main .sqare{
+    left: 42%;
+  }
+}
+@media screen and (max-width: 991px) and (min-width: 768px){
+  [type=button]:not(:disabled){
+    margin-right: 20px;
+  }
+  header .header-icons-2 a{
+    display: block !important;
+  }
+  header .icon-header{
+      display: none;
+  }
+  .header-icons-2 a {
+    margin-left: 10px;
+  }
+  .about-top {
+    padding: 50px 0px;
+  } 
+  .about-top .col-lg-6{
+    width: 50%;
+  }
+  .about-top .inner-detail-know {
+    padding-left: 0px !important;
+    padding-top: 0px !important;
+  }
+  .about-top .inner-detail-know {
+    margin-top: 0px;
+  }
+  .about-top .inner-detail-know .small-title h5{
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .about-top  .inner-detail-know .sec-title{
+    padding: 10px 0px;
+  }
+  .about-top .inner-detail-know .inner-img{
+    display: none;
+  }
+  .inner-detail-know .sec-part{
+    gap: 10px;
+  }
+  .sec-part .icon-para {
+    font-weight: 600;
+    font-size: 13px;
+  }
+  .service-top .small-title{
+    display: block;
+  }
+  .service-top .service-inner-desc{
+    padding-left: 0px;
+    margin-top: 20px;
+  }
+  .service-top .col-lg-3{
+    width: 50%;
+    margin-top: 30px;
+  }
+  .team-main .team-desc {
+    gap: 26px;
+    margin-left: 0px;
+    padding-bottom: 20px;
+  }
+  .team-main .team-desc h2{
+    font-size: 35px;
+  }
+  .team-main .col-lg-4{
+    width: 50%;
+    margin-top: 20px;
+  }
+  .vision-part .vi-tet p{
+    padding-top: 5px;
+  }
+  .mission-container .col-lg-6{
+    width: 50%;
+  }
+  .service-top .service-inner{
+    margin-top: 20px;
+  }
+  .service-top .service-inner h3{
+    margin-right: 400px;
+  }
+  .faq-main .inner-title{
+    padding-right: 0;
+  }
+  .faq-main .main-container{
+    display: none;
+  }
+}
+@media screen and (max-width: 767px) and (min-width: 427px){
+  [type=button]:not(:disabled){
+    margin-right: 20px;
+  }
+  header .header-icons-2 a{
+    display: block !important;
+  }
+  header .icon-header{
+    display: none;
+  }
+  .header-icons-2 a {
+    margin-left: 10px;
+  }
+  .about-top {
+    padding: 40px 0px;
+  }
+  .inner-detail-know .btn-main {
+    padding-left: 0px;
+  } 
+  .inner-detail-know .small-title h5{
+    font-size: 33px;
+  }
+  .inner-detail-know .inner_btn{
+    padding: 8px 23px;
+  }
+  .service-top .small-title h5{
+    font-size: 29px;
+    font-weight: 700;
+  }
+  .service-top .small-title{
+    display: block;
+  }
+  .service-top .service-title-top {
+    padding-right: 0px;
+  }
+  .service-top .service-inner-desc{
+    padding-left: 0px;
+    margin-top: 20px;
+  }
+  .service-top .col-lg-3{
+    width: 50%;
+    margin-top: 30px;
+  }
+  .service-title .sqaure-box{
+    padding: 10px;
+  }
+  .team-main .team-desc {
+    display: block;
+    margin-left: 0px;
+    padding-bottom: 32px;
+  }
+  .team-main .col-lg-4{
+    width: 50%;
+    margin-top: 20px;
+  }
+  .team-main .card-body h5{
+    font-size: 17px;
+    font-weight: 500;
+  }
+  .vision-part{
+    display: block;
+  }
+  .mission-container .col-lg-6{
+    width: 50%;
+  }
+  .vision-part-2 p{
+    line-height: 25px;
+  }
+  .service-top .service-inner{
+    margin-top: 20px;
+  }
+  .service-top .service-inner h3{
+    margin-right: 240px;
+  }
+  .faq-main .inner-title{
+    margin-top: 25px;
+    padding-right: 0;
+  }
+  .faq-main .main-container {
+    margin-top: 20px;
+  }
+  .faq-main .sqare{
+    left: 55%;
+  }
+}
+@media screen and (max-width: 426px) and (min-width: 377px){
+  [type=button]:not(:disabled){
+    margin-right: 20px;
+  }
+  header .header-icons-2 a{
+    display: block !important;
+  }
+  header .icon-header{
+      display: none;
+  }
+  .header-icons-2 a {
+    margin-left: 10px;
+  }
+  .about-top {
+    padding: 30px 0px;
+  }
+  .inner-detail-know .small-title h5 {
+    font-size: 33px;
+    font-weight: 700;
+  }
+  .inner-detail-know .sec-part{
+    gap: 15px;
+  }
+  .inner-detail-know .btn-main {
+    padding-left: 0px;
+  }
+  .inner-detail-know .inner_btn{
+    padding: 3px 10px;
+  }
+  .service-top .small-title{
+    display: block;
+  }
+  .service-top .service-title-top {
+    padding-right: 0px;
+  }
+  .service-top .small-title h5{
+    font-weight: 700;
+    font-size: 25px;
+  }
+  .service-top .service-inner-desc{
+    padding-left: 0;
+    margin-top: 20px;
+  }
+  .service-top .col-lg-3{
+    margin-top: 30px;
+  }
+  .team-main{
+    padding: 35px 0px;
+  }
+  .team-main .team-desc {
+    display: block;
+    margin-left: 0;
+  }
+  .team-main .team-desc h2{
+    font-size: 31px;
+  }
+  .team-main .col-lg-4{
+    margin-top: 20px;
+  }
+  .vision-part{
+    display: block;
+  }
+  .faq-main .inner-title{
+    padding-right: 0;
+  }
+  .accordion button{
+    padding: 1em 15px;
+  }
+  .faq-main .main-container{
+    margin-top: 20px;
+  }
+  .faq-main .sqare{
+    left: 0%;
+    right: auto;
+  }
+}
+@media screen and (max-width: 376px) and (min-width: 300px){
+  [type=button]:not(:disabled){
+    margin-right: 20px;
+  }
+  header .header-icons-2 a{
+    display: block !important;
+  }
+  header .icon-header{
+      display: none;
+  }
+  .header-icons-2 a {
+    margin-left: 10px;
+  }
+  .about-top {
+    padding: 30px 0px;
+  }
+  .inner-detail-know .small-title h5 {
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .inner-detail-know .sec-part{
+    gap: 4px;
+  }
+  .sec-part .icon-para {
+    font-weight: 400;
+    font-size: 15px;
+  }
+  .inner-detail-know .inner-img{
+    display: block;
+  }
+  .inner-detail-know .inner_btn{
+    margin-top: 10px;
+  }
+  .service-top .small-title{
+    display: block;
+  }
+  .service-top .service-title-top {
+    padding-right: 0px;
+  }
+  .service-top .service-inner-desc{
+    padding-left: 0;
+    margin-top: 10px;
+  }
+  .service-top .col-lg-3{
+    margin-top: 30px;
+  }
+  .team-main {
+    padding: 20px 0px;
+  }
+  .team-main .team-desc{
+    display: block;
+    margin-left: 0;
+  }
+  .team-main .team-desc h2{
+    font-size: 30px;
+  }
+  .team-main .team-desc p{
+    font-size: 14px;
+  }
+  .team-main .col-lg-4{
+    margin-top: 20px;
+  }
+  .vision-part{
+    display: block;
+  }
+  .service-top .service-inner{
+    margin-top: 20px;
+  }
+  .service-top .service-inner h3{
+    margin-left: 76px;
+    margin-right: 90px;
+  }
+  .faq-main .inner-title {
+    margin-top: 22px;
+    font-size: 20px;
+    padding-right: 0px;
+    line-height: 32px;
+  }
+  .accordion button{
+    padding: 1em 10px;
+  }
+  .faq-main .main-container{
+    margin-top: 20px;
+  }
+  .faq-main .sqare{
+    left: 0;
+  }
+}
+
+
+@media screen and (max-width: 692px) and (min-width: 427px){
+  .faq-main .sqare{
+    left: 30%;
+  }
+}
